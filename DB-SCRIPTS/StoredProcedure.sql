@@ -1,0 +1,11 @@
+DELIMITER //
+DROP PROCEDURE IF EXISTS GetAllProducts;
+CREATE PROCEDURE GetAllProducts()
+BEGIN
+	SELECT 'Hello World!';
+	SELECT *  FROM PRODUCT;
+END //
+
+DELIMITER ;
+
+call GetAllProducts();
