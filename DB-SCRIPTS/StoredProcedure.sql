@@ -8,4 +8,11 @@ END //
 
 DELIMITER ;
 
+
+/* 
+    MYSQL TUTORIALS
+    https://www.javatpoint.com/mysql-distinct
+*/
+
+
 call GetAllProducts();
